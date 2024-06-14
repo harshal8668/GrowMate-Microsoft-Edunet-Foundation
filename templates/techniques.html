@@ -1,0 +1,425 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<div class="container techniques-container">
+    <h2>Techniques & Technologies</h2>
+
+    <ul class="nav nav-pills nav-tabs navbar-tech" id="myTab navbar-tech navigation" role="tablist">
+      <li class="nav-item nav-item2" role="presentation">
+        <button class="nav-link nav-link2 active" id="home-tab" data-bs-toggle="tab" data-bs-target="#home" type="button" role="tab" aria-controls="home" aria-selected="true">New cultivation techniques</button>
+      </li>
+      <li class="nav-item nav-item2" role="presentation">
+        <button class="nav-link nav-link2" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile" type="button" role="tab" aria-controls="profile" aria-selected="false">New technology</button>
+      </li>
+      <li class="nav-item nav-item2" role="presentation">
+        <button class="nav-link nav-link2" id="contact-tab" data-bs-toggle="tab" data-bs-target="#contact" type="button" role="tab" aria-controls="contact" aria-selected="false">Irrigation methods</button>
+      </li>
+      <li class="nav-item nav-item2" role="presentation">
+          <button class="nav-link nav-link2" id="sales-tab" data-bs-toggle="tab" data-bs-target="#sales" type="button" role="tab" aria-controls="sales" aria-selected="true">Seed sowing methods</button>
+        </li>
+    </ul>
+
+    <hr style="background-color: black; height: 2px; line-height: 0;">
+
+    <div class="tab-content tab-content2" id="myTabContent">
+
+      <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
+        <div class="" id="row">
+          <div class="nav nav-pills left-side" id="v-pills-tab" role="tablist" aria-orientation="vertical">  
+            <button class="nav-link text-start active" id="v-pills-home-tab" data-bs-toggle="pill" data-bs-target="#v-pills-home" type="button" role="tab" aria-controls="v-pills-home" aria-selected="true">Vertical Farming</button>            
+            <button class="nav-link text-start" id="v-pills-profile-tab" data-bs-toggle="pill" data-bs-target="#v-pills-profile" type="button" role="tab" aria-controls="v-pills-profile" aria-selected="false">Precision Agriculture</button>             
+            <button class="nav-link text-start" id="v-pills-messages-tab" data-bs-toggle="pill" data-bs-target="#v-pills-messages" type="button" role="tab" aria-controls="v-pills-messages" aria-selected="false">Aquaponics</button>
+            <button class="nav-link text-start" id="v-pills-settings-tab" data-bs-toggle="pill" data-bs-target="#v-pills-settings" type="button" role="tab" aria-controls="v-pills-settings" aria-selected="false">Hydroponics</button>
+            <button class="nav-link text-start" id="v-pills-settings-tab" data-bs-toggle="pill" data-bs-target="#v-pills-RIA" type="button" role="tab" aria-controls="v-pills-settings" aria-selected="false">Robotics in Agriculture</button>
+            <button class="nav-link text-start" id="v-pills-settings-tab" data-bs-toggle="pill" data-bs-target="#v-pills-GMO" type="button" role="tab" aria-controls="v-pills-settings" aria-selected="false">Biotechnology and Genetically Modified Organisms (GMOs)</button>
+            <button class="nav-link text-start" id="v-pills-settings-tab" data-bs-toggle="pill" data-bs-target="#v-pills-SGG" type="button" role="tab" aria-controls="v-pills-settings" aria-selected="false">Smart Greenhouses</button>
+            <button class="nav-link text-start" id="v-pills-settings-tab" data-bs-toggle="pill" data-bs-target="#v-pills-BIA" type="button" role="tab" aria-controls="v-pills-settings" aria-selected="false">Blockchain in Agriculture</button>
+            <button class="nav-link text-start" id="v-pills-settings-tab" data-bs-toggle="pill" data-bs-target="#v-pills-DACM" type="button" role="tab" aria-controls="v-pills-settings" aria-selected="false">Data Analytics for Crop Management</button>
+            <button class="nav-link text-start" id="v-pills-settings-tab" data-bs-toggle="pill" data-bs-target="#v-pills-AF" type="button" role="tab" aria-controls="v-pills-settings" aria-selected="false">Agroforestry</button>
+            <button class="nav-link text-start" id="v-pills-settings-tab" data-bs-toggle="pill" data-bs-target="#v-pills-SPF" type="button" role="tab" aria-controls="v-pills-settings" aria-selected="false">Solar-Powered Farming</button>
+            <button class="nav-link text-start" id="v-pills-settings-tab" data-bs-toggle="pill" data-bs-target="#v-pills-CTCI" type="button" role="tab" aria-controls="v-pills-settings" aria-selected="false">Crispr Technology in Crop Improvement</button>
+          </div>
+
+          <div class="tab-content right-side" id="v-pills-tabContent">
+            <div class="tab-pane fade show active" id="v-pills-home" role="tabpanel" aria-labelledby="v-pills-home-tab">
+              <ul>
+                <li>Utilizing vertical space for growing crops in stacked layers or vertical towers.</li>
+                <li>Efficient use of space and resources, often employing hydroponics or aeroponics</li>
+              </ul>
+            </div>
+          
+            <div class="tab-pane fade" id="v-pills-profile" role="tabpanel" aria-labelledby="v-pills-profile-tab">
+              <ul>
+                <li>Using technology like sensors, GPS, and drones to optimize farming practices</li>
+                <li>Tailoring irrigation, fertilization, and pest control to specific areas of the field</li>
+              </ul>
+            </div>
+          
+            <div class="tab-pane fade" id="v-pills-messages" role="tabpanel" aria-labelledby="v-pills-messages-tab">
+              <ul>
+                <li>Integrating aquaculture (fish farming) and hydroponics to create a symbiotic environment.</li>
+                <li>Fish waste provides nutrients for plants, and plants help filter and clean the water.</li>
+              </ul>
+            </div>
+          
+            <div class="tab-pane fade" id="v-pills-settings" role="tabpanel" aria-labelledby="v-pills-settings-tab">
+              <ul>
+                <li>Growing plants without soil, using nutrient-rich water solutions</li>
+                <li>Provides better control over nutrient levels and can result in faster plant growth</li>
+              </ul>
+            </div>
+          
+            <div class="tab-pane fade" id="v-pills-RIA" role="tabpanel" aria-labelledby="v-pills-settings-tab">
+              <ul>
+                <li>Automation of tasks like planting, harvesting, and weeding using robotic technology.</li>
+                <li>Increases efficiency and reduces the need for manual labor</li>
+              </ul>
+            </div>
+          
+            <div class="tab-pane fade" id="v-pills-GMO" role="tabpanel" aria-labelledby="v-pills-settings-tab">
+              <ul>
+                <li>Developing crops with enhanced resistance to pests, diseases, and environmental stress</li>
+                <li>Improving crop yields and nutritional content</li>
+              </ul>
+            </div>
+          
+            <div class="tab-pane fade" id="v-pills-SGG" role="tabpanel" aria-labelledby="v-pills-settings-tab">
+              <ul>
+                <li>Integrating technology to control environmental factors like temperature, humidity, and light</li>
+                <li>Using sensors and automation to optimize growing conditions</li>
+              </ul>
+            </div>
+
+            <div class="tab-pane fade" id="v-pills-BIA" role="tabpanel" aria-labelledby="v-pills-settings-tab">
+              <ul>
+                <li>Implementing blockchain technology for supply chain transparency and traceability</li>
+                <li>Enhancing trust and accountability in the agricultural supply chain</li>
+              </ul>
+            </div>
+
+            <div class="tab-pane fade" id="v-pills-DACM" role="tabpanel" aria-labelledby="v-pills-settings-tab">
+              <ul>
+                <li>Analyzing large sets of data to make informed decisions about planting, irrigation, and harvesting</li>
+                <li>Predictive modeling for better crop yield forecasting</li>
+              </ul>
+            </div>
+
+            <div class="tab-pane fade" id="v-pills-AF" role="tabpanel" aria-labelledby="v-pills-settings-tab">
+              <ul>
+                <li>Integrating trees and shrubs into traditional agricultural landscapes</li>
+                <li>Promoting biodiversity, improving soil health, and providing additional sources of income</li>
+              </ul>
+            </div>
+
+            <div class="tab-pane fade" id="v-pills-SPF" role="tabpanel" aria-labelledby="v-pills-settings-tab">
+              <ul>
+                <li>Using solar energy to power irrigation systems, equipment, and other farm operations</li>
+                <li>Promoting sustainable and renewable energy sources in agriculture</li>
+              </ul>
+            </div>
+
+            <div class="tab-pane fade" id="v-pills-CTCI" role="tabpanel" aria-labelledby="v-pills-settings-tab">
+              <ul>
+                <li>Applying gene-editing techniques like CRISPR to enhance desirable traits in crops</li>
+                <li>Accelerating the development of new crop varieties</li>
+              </ul>
+            </div>
+              
+          </div>
+        </div>
+      </div>
+
+      <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
+        <div class="" id="row">
+          <div class="nav nav-pills left-side" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+            <button class="nav-link text-start active" id="v-pills-home-tab" data-bs-toggle="pill" data-bs-target="#v-pills-IOT" type="button" role="tab" aria-controls="v-pills-home" aria-selected="true">IoT Sensors</button>
+            <button class="nav-link text-start" id="v-pills-profile-tab" data-bs-toggle="pill" data-bs-target="#v-pills-DSI" type="button" role="tab" aria-controls="v-pills-profile" aria-selected="false">Drones and Satellite Imagery </button>
+            <button class="nav-link text-start" id="v-pills-messages-tab" data-bs-toggle="pill" data-bs-target="#v-pills-AFE" type="button" role="tab" aria-controls="v-pills-messages" aria-selected="false">Automated Farm Equipment</button>
+            <button class="nav-link text-start" id="v-pills-settings-tab" data-bs-toggle="pill" data-bs-target="#v-pills-VRT" type="button" role="tab" aria-controls="v-pills-settings" aria-selected="false">Variable Rate Technology (VRT)</button>
+            <button class="nav-link text-start" id="v-pills-settings-tab" data-bs-toggle="pill" data-bs-target="#v-pills-MLAI" type="button" role="tab" aria-controls="v-pills-settings" aria-selected="false">Machine Learning and AI</button>
+            <button class="nav-link text-start" id="v-pills-settings-tab" data-bs-toggle="pill" data-bs-target="#v-pills-BCE" type="button" role="tab" aria-controls="v-pills-settings" aria-selected="false">Biological Crop Enhancers</button>
+            <button class="nav-link text-start" id="v-pills-settings-tab" data-bs-toggle="pill" data-bs-target="#v-pills-SIS" type="button" role="tab" aria-controls="v-pills-settings" aria-selected="false">Smart Irrigation Systems</button>
+            <button class="nav-link text-start" id="v-pills-settings-tab" data-bs-toggle="pill" data-bs-target="#v-pills-VIP" type="button" role="tab" aria-controls="v-pills-settings" aria-selected="false">Vertical Integration Platforms</button>
+            <button class="nav-link text-start" id="v-pills-settings-tab" data-bs-toggle="pill" data-bs-target="#v-pills-RW" type="button" role="tab" aria-controls="v-pills-settings" aria-selected="false">Robotic Weeders</button>
+            <button class="nav-link text-start" id="v-pills-settings-tab" data-bs-toggle="pill" data-bs-target="#v-pills-HDRCV" type="button" role="tab" aria-controls="v-pills-settings" aria-selected="false">Heat and Drought-Resistant Crop Varieties</button>
+            <button class="nav-link text-start" id="v-pills-settings-tab" data-bs-toggle="pill" data-bs-target="#v-pills-NDS" type="button" role="tab" aria-controls="v-pills-settings" aria-selected="false">Nutrient Delivery Systems</button>
+            <button class="nav-link text-start" id="v-pills-settings-tab" data-bs-toggle="pill" data-bs-target="#v-pills-ART" type="button" role="tab" aria-controls="v-pills-settings" aria-selected="false">Aquifer Recharge Techniques</button>
+          </div>
+          <div class="tab-content right-side" id="v-pills-tabContent">
+            <div class="tab-pane fade show active" id="v-pills-IOT" role="tabpanel" aria-labelledby="v-pills-home-tab">
+              <ul>
+                <li>Utilize sensors to monitor soil moisture, temperature, and nutrient levels in real-time</li>
+                <li>Ensure optimal growing conditions and avoid overwatering or underfertilizing</li>
+              </ul>
+            </div>
+            <div class="tab-pane fade" id="v-pills-DSI" role="tabpanel" aria-labelledby="v-pills-profile-tab">
+              <ul>
+                <li>Use drones and satellite technology to survey large fields and identify areas with crop stress, pests, or diseases</li>
+                <li>Enable precision farming practices for targeted interventions</li>
+              </ul>
+            </div>
+            <div class="tab-pane fade" id="v-pills-AFE" role="tabpanel" aria-labelledby="v-pills-messages-tab">
+              <ul>
+                <li>Implement smart tractors, planters, and harvesters that can operate autonomously or with minimal human intervention</li>
+                <li>Improve efficiency and reduce labor requirements</li>
+              </ul>
+            </div>
+            <div class="tab-pane fade" id="v-pills-VRT" role="tabpanel" aria-labelledby="v-pills-settings-tab">
+              <ul>
+                <li>Adjust planting, fertilization, and irrigation rates based on specific conditions in different parts of the field</li>
+                <li>Provides better control over nutrient levels and can result in faster plant growth</li>
+              </ul>
+            </div>
+            <div class="tab-pane fade" id="v-pills-MLAI" role="tabpanel" aria-labelledby="v-pills-settings-tab">
+              <ul>
+                <li>Automation of tasks like planting, harvesting, and weeding using robotic technology.</li>
+                <li>Optimize resource use and improve overall crop performance</li>
+              </ul>
+            </div>
+            <div class="tab-pane fade" id="v-pills-BCE" role="tabpanel" aria-labelledby="v-pills-settings-tab">
+              <ul>
+                <li>Utilize beneficial microbes, fungi, and other biological agents to enhance soil health and promote plant growth</li>
+                <li>Bio-stimulants and bio-fertilizers can improve nutrient absorption</li>
+              </ul>
+            </div>
+            <div class="tab-pane fade" id="v-pills-SIS" role="tabpanel" aria-labelledby="v-pills-settings-tab">
+              <ul>
+                <li>Employ automated irrigation systems that adjust water delivery based on real-time weather conditions and soil moisture levels</li>
+                <li>Prevent over-irrigation and water wastage</li>
+              </ul>
+            </div>
+            <div class="tab-pane fade" id="v-pills-VIP" role="tabpanel" aria-labelledby="v-pills-settings-tab">
+              <ul>
+                <li>Implement platforms that integrate various aspects of farming operations, from planting to marketing</li>
+                <li>Streamline communication, data sharing, and decision-making</li>
+              </ul>
+            </div>
+            <div class="tab-pane fade" id="v-pills-RW" role="tabpanel" aria-labelledby="v-pills-settings-tab">
+              <ul>
+                <li>Use robotic systems equipped with cameras and AI to identify and remove weeds</li>
+                <li>Reduce the reliance on herbicides and minimize competition for resources</li>
+              </ul>
+            </div>
+            <div class="tab-pane fade" id="v-pills-HDRCV" role="tabpanel" aria-labelledby="v-pills-settings-tab">
+              <ul>
+                <li>Invest in seeds and plant varieties developed through breeding or genetic modification to withstand high temperatures and drought conditions</li>
+                <li>Ensure more reliable yields in challenging environments</li>
+              </ul>
+            </div>
+            
+            <div class="tab-pane fade" id="v-pills-NDS" role="tabpanel" aria-labelledby="v-pills-settings-tab">
+              <ul>
+                <li>Employ precision nutrient delivery systems that supply essential elements directly to plant roots</li>
+                <li>Enhance nutrient uptake and reduce waste</li>
+              </ul>
+            </div>
+            <div class="tab-pane fade" id="v-pills-ART" role="tabpanel" aria-labelledby="v-pills-settings-tab">
+              <ul>
+                <li>Implement practices to replenish groundwater resources, such as rainwater harvesting and conservation measures</li>
+                <li>Ensure a sustainable and consistent water supply for crops</li>
+              </ul>
+            </div>
+            
+          </div>
+        </div>
+      </div>
+
+      <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">
+        <div class="" id="row">
+              <div class="nav nav-pills left-side" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+                <button class="nav-link text-start active" id="v-pills-home-tab" data-bs-toggle="pill" data-bs-target="#v-pills-SIDI" type="button" role="tab" aria-controls="v-pills-home" aria-selected="true">Surface Irrigation</button>
+                <button class="nav-link text-start" id="v-pills-profile-tab" data-bs-toggle="pill" data-bs-target="#v-pills-DI" type="button" role="tab" aria-controls="v-pills-profile" aria-selected="false">Drip Irrigation</button>
+                <button class="nav-link text-start" id="v-pills-messages-tab" data-bs-toggle="pill" data-bs-target="#v-pills-SPK" type="button" role="tab" aria-controls="v-pills-messages" aria-selected="false">Sprinkler Irrigation</button>
+                <button class="nav-link text-start" id="v-pills-settings-tab" data-bs-toggle="pill" data-bs-target="#v-pills-SDI" type="button" role="tab" aria-controls="v-pills-settings" aria-selected="false">Subsurface Drip Irrigation (SDI)</button>
+                <button class="nav-link text-start" id="v-pills-settings-tab" data-bs-toggle="pill" data-bs-target="#v-pills-CPI" type="button" role="tab" aria-controls="v-pills-settings" aria-selected="false">Center Pivot Irrigation</button>
+                <button class="nav-link text-start" id="v-pills-settings-tab" data-bs-toggle="pill" data-bs-target="#v-pills-LMI" type="button" role="tab" aria-controls="v-pills-settings" aria-selected="false">Lateral Move Irrigation</button>
+                <button class="nav-link text-start" id="v-pills-settings-tab" data-bs-toggle="pill" data-bs-target="#v-pills-SH" type="button" role="tab" aria-controls="v-pills-settings" aria-selected="false">Soaker Hoses</button>
+                <button class="nav-link text-start" id="v-pills-settings-tab" data-bs-toggle="pill" data-bs-target="#v-pills-LI" type="button" role="tab" aria-controls="v-pills-settings" aria-selected="false">Flood Irrigation</button>
+                <button class="nav-link text-start" id="v-pills-settings-tab" data-bs-toggle="pill" data-bs-target="#v-pills-MS" type="button" role="tab" aria-controls="v-pills-settings" aria-selected="false">Micro-Sprinklers</button>
+                <button class="nav-link text-start" id="v-pills-settings-tab" data-bs-toggle="pill" data-bs-target="#v-pills-GFI" type="button" role="tab" aria-controls="v-pills-settings" aria-selected="false">Gravity Flow Irrigation</button>
+                <button class="nav-link text-start" id="v-pills-settings-tab" data-bs-toggle="pill" data-bs-target="#v-pills-FS" type="button" role="tab" aria-controls="v-pills-settings" aria-selected="false">Fogging Systems</button>
+                <button class="nav-link text-start" id="v-pills-settings-tab" data-bs-toggle="pill" data-bs-target="#v-pills-PI" type="button" role="tab" aria-controls="v-pills-settings" aria-selected="false">Pulse Irrigation</button>
+
+              </div>
+              <div class="tab-content right-side" id="v-pills-tabContent">
+                <div class="tab-pane fade show active" id="v-pills-SI" role="tabpanel" aria-labelledby="v-pills-home-tab">
+                  <ul>
+                      <li>Furrow Irrigation: Water is applied in small channels (furrows) between rows of crops</li>
+                      <li>Basin Irrigation: The field is divided into basins, and water is flooded into each basin</li>
+                  </ul>
+                  </div>
+                <div class="tab-pane fade" id="v-pills-DI" role="tabpanel" aria-labelledby="v-pills-profile-tab">
+                  <ul>
+                      <li>Water is delivered directly to the base of each plant through a network of tubes, pipes, and emitters</li>
+                      <li>Efficient in water use, reduces weed growth, and minimizes soil erosion</li>
+                  </ul>
+                </div>
+                <div class="tab-pane fade" id="v-pills-SPK" role="tabpanel" aria-labelledby="v-pills-messages-tab">
+                  <ul>
+                      <li>Water is sprayed over the crops in the form of droplets, similar to natural rainfall</li>
+                      <li>Types include center pivot systems, traveling sprinklers, and stationary sprinklers</li>
+                  </ul>
+                </div>
+                <div class="tab-pane fade" id="v-pills-SDI" role="tabpanel" aria-labelledby="v-pills-settings-tab">
+                  <ul>
+                      <li>Similar to drip irrigation, but water is delivered below the soil surface through buried tubes or pipes</li>
+                      <li>Minimizes water evaporation and reduces weed growth</li>
+                  </ul>
+                </div>
+                <div class="tab-pane fade" id="v-pills-CPI" role="tabpanel" aria-labelledby="v-pills-settings-tab">
+                  <ul>
+                      <li>A rotating sprinkler system mounted on wheeled towers that pivot around a central point</li>
+                      <li>Suitable for large, circular fields and provides uniform water distribution</li>
+                  </ul>
+                </div>
+                <div class="tab-pane fade" id="v-pills-LMI" role="tabpanel" aria-labelledby="v-pills-settings-tab">
+                  <ul>
+                      <li>Similar to center pivot irrigation, but instead of rotating around a central point, the system moves laterally across the field</li>
+                      <li>Suitable for rectangular or irregularly shaped fields</li>
+                  </ul>
+                </div>
+                <div class="tab-pane fade" id="v-pills-SH" role="tabpanel" aria-labelledby="v-pills-settings-tab">
+                  <ul>
+                      <li>Porous hoses are laid on the soil surface, and water seeps out slowly to irrigate the surrounding area</li>
+                      <li>Effective for small gardens and flower beds</li>
+                  </ul>
+                </div>
+                <div class="tab-pane fade" id="v-pills-LI" role="tabpanel" aria-labelledby="v-pills-settings-tab">
+                  <ul>
+                      <li>Water is allowed to flow over the entire field, covering the soil surface uniformly</li>
+                      <li>Common in rice paddies and for certain crops that tolerate flooding</li>
+                  </ul>
+                </div>
+                <div class="tab-pane fade" id="v-pills-MS" role="tabpanel" aria-labelledby="v-pills-settings-tab">
+                  <ul>
+                      <li>Similar to traditional sprinklers but designed for smaller areas or individual plants</li>
+                      <li>Provides targeted irrigation</li>
+                  </ul>
+                </div>
+                <div class="tab-pane fade" id="v-pills-GFI" role="tabpanel" aria-labelledby="v-pills-settings-tab">
+                  <ul>
+                      <li>Relies on the natural slope of the land to allow water to flow over the field by gravity</li>
+                      <li>Channels and furrows guide the water across the landscape</li>
+                  </ul>
+                </div>
+                <div class="tab-pane fade" id="v-pills-FS" role="tabpanel" aria-labelledby="v-pills-settings-tab">
+                  <ul>
+                      <li>Produces a fine mist or fog that envelops the crops</li>
+                      <li>Suitable for greenhouse environments and delicate plants</li>
+                  </ul>
+                </div>
+                <div class="tab-pane fade" id="v-pills-PI" role="tabpanel" aria-labelledby="v-pills-settings-tab">
+                  <ul>
+                      <li>Alternates periods of irrigation with periods of no water application</li>
+                      <li>Helps prevent waterlogging and allows the soil to partially dry out between watering</li>
+                  </ul>
+                </div>
+              </div>
+        </div>
+      </div>
+
+      <div class="tab-pane fade" id="sales" role="tabpanel" aria-labelledby="sales-tab">
+          <div class="" id="row">
+              <div class="nav nav-pills left-side" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+                <button class="nav-link text-start active" id="v-pills-home-tab" data-bs-toggle="pill" data-bs-target="#v-pills-BS" type="button" role="tab" aria-controls="v-pills-home" aria-selected="true">Broadcast Sowing</button>
+                <button class="nav-link text-start" id="v-pills-profile-tab" data-bs-toggle="pill" data-bs-target="#v-pills-DRS" type="button" role="tab" aria-controls="v-pills-profile" aria-selected="false">Drilling or Row Sowing</button>
+                <button class="nav-link text-start" id="v-pills-messages-tab" data-bs-toggle="pill" data-bs-target="#v-pills-DBL" type="button" role="tab" aria-controls="v-pills-messages" aria-selected="false">Dibbling</button>
+                <button class="nav-link text-start" id="v-pills-settings-tab" data-bs-toggle="pill" data-bs-target="#v-pills-HD" type="button" role="tab" aria-controls="v-pills-settings" aria-selected="false">Hill Dropping</button>
+                <button class="nav-link text-start" id="v-pills-settings-tab" data-bs-toggle="pill" data-bs-target="#v-pills-TP" type="button" role="tab" aria-controls="v-pills-settings" aria-selected="false">Transplanting</button>
+                <button class="nav-link text-start" id="v-pills-settings-tab" data-bs-toggle="pill" data-bs-target="#v-pills-PP" type="button" role="tab" aria-controls="v-pills-settings" aria-selected="false">Precision Planting</button>
+                <button class="nav-link text-start" id="v-pills-settings-tab" data-bs-toggle="pill" data-bs-target="#v-pills-PS" type="button" role="tab" aria-controls="v-pills-settings" aria-selected="false">Pelleted Seeds</button>
+                <button class="nav-link text-start" id="v-pills-settings-tab" data-bs-toggle="pill" data-bs-target="#v-pills-AS" type="button" role="tab" aria-controls="v-pills-settings" aria-selected="false">Aerial Seeding</button>
+                <button class="nav-link text-start" id="v-pills-settings-tab" data-bs-toggle="pill" data-bs-target="#v-pills-ZTNT" type="button" role="tab" aria-controls="v-pills-settings" aria-selected="false">Zero Tillage or No-Till</button>
+                <button class="nav-link text-start" id="v-pills-settings-tab" data-bs-toggle="pill" data-bs-target="#v-pills-STM" type="button" role="tab" aria-controls="v-pills-settings" aria-selected="false">Seed Tape or Mats</button>
+                <button class="nav-link text-start" id="v-pills-settings-tab" data-bs-toggle="pill" data-bs-target="#v-pills-RS" type="button" role="tab" aria-controls="v-pills-settings" aria-selected="false">Rotary Seeders</button>
+                <button class="nav-link text-start" id="v-pills-settings-tab" data-bs-toggle="pill" data-bs-target="#v-pills-SD" type="button" role="tab" aria-controls="v-pills-settings" aria-selected="false">Seed Drill</button>
+
+              </div>
+              <div class="tab-content right-side" id="v-pills-tabContent">
+                <div class="tab-pane fade show active" id="v-pills-BS" role="tabpanel" aria-labelledby="v-pills-home-tab">
+                  <ul>
+                      <li>Seeds are scattered evenly over the soil surface</li>
+                      <li>Suitable for small-seeded crops and those with a dense planting pattern</li>
+                      <li>Requires subsequent soil covering to protect the seeds</li>
+                  </ul>
+                  </div>
+                <div class="tab-pane fade" id="v-pills-DRS" role="tabpanel" aria-labelledby="v-pills-profile-tab">
+                  <ul>
+                      <li>Seeds are sown in rows or furrows at specific intervals</li>
+                      <li>Provides a well-defined planting pattern, making it easier for crop management</li>
+                      <li>Common for larger-seeded crops like grains and cereals</li>
+                  </ul>
+                </div>
+                <div class="tab-pane fade" id="v-pills-DBL" role="tabpanel" aria-labelledby="v-pills-messages-tab">
+                  <ul>
+                      <li>Small holes or furrows are made in the soil using a pointed stick or specialized dibbler</li>
+                      <li>Seeds are placed in these holes at the desired spacing</li>
+                      <li>Suitable for small gardens or individual plants</li>
+                  </ul>
+                </div>
+                <div class="tab-pane fade" id="v-pills-HD" role="tabpanel" aria-labelledby="v-pills-settings-tab">
+                  <ul>
+                      <li>Seeds are dropped in small mounds or hills, typically with multiple seeds per hill</li>
+                      <li>Common for crops like squash and melons</li>
+                  </ul>
+                </div>
+                <div class="tab-pane fade" id="v-pills-TP" role="tabpanel" aria-labelledby="v-pills-settings-tab">
+                  <ul>
+                      <li>Germinated seedlings are grown in nurseries and later transplanted to the field</li>
+                      <li>Common for crops like tomatoes, peppers, and certain flowers</li>
+                      <li>Provides better control over spacing and early growth conditions</li>
+                  </ul>
+                </div>
+                <div class="tab-pane fade" id="v-pills-PP" role="tabpanel" aria-labelledby="v-pills-settings-tab">
+                  <ul>
+                      <li>Uses specialized equipment with precise seed placement technology</li>
+                      <li>Ensures optimal spacing and depth for each seed</li>
+                      <li>Common in large-scale agriculture for crops like corn and soybeans</li>
+                  </ul>
+                </div>
+                <div class="tab-pane fade" id="v-pills-PS" role="tabpanel" aria-labelledby="v-pills-settings-tab">
+                  <ul>
+                      <li>Seeds are coated with a material that makes them larger and easier to handle</li>
+                      <li>Facilitates precision planting and spacing</li>
+                  </ul>
+                </div>
+                <div class="tab-pane fade" id="v-pills-AS" role="tabpanel" aria-labelledby="v-pills-settings-tab">
+                  <ul>
+                      <li>Seeds are dispersed from an aircraft or drone</li>
+                      <li>Suitable for large areas or areas with difficult terrain</li>
+                      <li>Common for reseeding after wildfires or in conservation efforts</li>
+                  </ul>
+                </div>
+                <div class="tab-pane fade" id="v-pills-ZTNT" role="tabpanel" aria-labelledby="v-pills-settings-tab">
+                  <ul>
+                      <li>Seeds are sown directly into untilled soil without prior plowing</li>
+                      <li>Helps conserve soil moisture and reduce erosion</li>
+                      <li>Common in conservation agriculture practices</li>
+                  </ul>
+                </div>
+                <div class="tab-pane fade" id="v-pills-STM" role="tabpanel" aria-labelledby="v-pills-settings-tab">
+                  <ul>
+                      <li>Seeds are embedded in a tape or mat, pre-spaced for optimal planting</li>
+                      <li>Simplifies planting and ensures uniform spacing</li>
+                  </ul>
+                </div>
+                <div class="tab-pane fade" id="v-pills-RS" role="tabpanel" aria-labelledby="v-pills-settings-tab">
+                  <ul>
+                      <li>Mechanical devices with rotating parts distribute seeds in a controlled manner</li>
+                      <li>Suitable for large-scale agriculture and even distribution of small seeds</li>
+                  </ul>
+                </div>
+                <div class="tab-pane fade" id="v-pills-SD" role="tabpanel" aria-labelledby="v-pills-settings-tab">
+                  <ul>
+                      <li>Equipment that plants seeds at a consistent depth and spacing in rows</li>
+                      <li>Efficient for large-scale farming of crops like wheat and barley</li>
+                  </ul>
+                </div>
+              </div>
+          </div>
+      </div>
+
+    </div>
+  </div>
+  
+{% endblock %}

@@ -1,0 +1,267 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<div class="container techniques-container">
+  <h2>Fertilizers</h2>
+  <div class="tab-content2" id="row">
+
+  
+  <div  class="nav nav-pills left-side" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+    <button class="nav-link active text-start" id="v-pills-home-tab" data-bs-toggle="pill" data-bs-target="#v-pills-urea" type="button" role="tab" aria-controls="v-pills-home" aria-selected="true">Urea (46-0-0) </button>
+    <button class="nav-link text-start" id="v-pills-DAP-tab" data-bs-toggle="pill" data-bs-target="#v-pills-DAP" type="button" role="tab" aria-controls="v-pills-DAP" aria-selected="true">Di-ammonium Phosphate (DAP) (18-46-0)</button>
+    <button class="nav-link text-start" id="v-pills-KCL-tab" data-bs-toggle="pill" data-bs-target="#v-pills-KCL" type="button" role="tab" aria-controls="v-pills-profile" aria-selected="false">Potassium Chloride (KCl) (0-0-60)</button>
+    <button class="nav-link text-start" id="v-pills-AmmoniumSulfate-tab" data-bs-toggle="pill" data-bs-target="#v-pills-AmmoniumSulfate" type="button" role="tab" aria-controls="v-pills-Ammonium Sulfate" aria-selected="false">Ammonium Sulfate (21-0-0)</button>
+    <button class="nav-link text-start" id="v-pills-MuriatePotash-tab" data-bs-toggle="pill" data-bs-target="#v-pills-MuriatePotash" type="button" role="tab" aria-controls="v-pills-settings" aria-selected="false">Muriate of Potash (0-0-60)</button>
+    <button class="nav-link text-start" id="v-pills-Micronutrient-tab" data-bs-toggle="pill" data-bs-target="#v-pills-Micronutrient" type="button" role="tab" aria-controls="v-pills-settings" aria-selected="false">Micronutrient Fertilizers</button>
+    <button class="nav-link text-start" id="v-pills-MAP-tab" data-bs-toggle="pill" data-bs-target="#v-pills-MAP" type="button" role="tab" aria-controls="v-pills-settings" aria-selected="false">Mono-ammonium Phosphate (MAP) (11-52-0)</button>
+    <button class="nav-link text-start" id="v-pills-SulfurFertilizers-tab" data-bs-toggle="pill" data-bs-target="#v-pills-SulfurFertilizers" type="button" role="tab" aria-controls="v-pills-settings" aria-selected="false">Sulfur-Containing Fertilizers</button>
+    <button class="nav-link text-start" id="v-pills-CompleteFertilizers-tab" data-bs-toggle="pill" data-bs-target="#v-pills-CompleteFertilizers" type="button" role="tab" aria-controls="v-pills-settings" aria-selected="false">Complete Fertilizers(15-15-15 or 20-20-20)</button>
+    <button class="nav-link text-start" id="v-pills-RockPhosphate-tab" data-bs-toggle="pill" data-bs-target="#v-pills-RockPhosphate" type="button" role="tab" aria-controls="v-pills-settings" aria-selected="false">Rock Phosphate</button>
+    <button class="nav-link text-start" id="v-pills-MagnesiumSulfate-tab" data-bs-toggle="pill" data-bs-target="#v-pills-MagnesiumSulfate" type="button" role="tab" aria-controls="v-pills-settings" aria-selected="false">Magnesium Sulfate (Epsom Salt)</button>
+    <button class="nav-link text-start" id="v-pills-BalancedNPK-tab" data-bs-toggle="pill" data-bs-target="#v-pills-BalancedNPK" type="button" role="tab" aria-controls="v-pills-settings" aria-selected="false">Balanced NPK Fertilizers(10-10-10 or 14-14-14) </button>
+    <button class="nav-link text-start" id="v-pills-SingleSuper-tab" data-bs-toggle="pill" data-bs-target="#v-pills-SingleSuper" type="button" role="tab" aria-controls="v-pills-settings" aria-selected="false">Single Super Phosphate (SSP) or Triple Super Phosphate (TSP)</button>
+    <button class="nav-link text-start" id="v-pills-SpecializedCitrus-tab" data-bs-toggle="pill" data-bs-target="#v-pills-SpecializedCitrus" type="button" role="tab" aria-controls="v-pills-settings" aria-selected="false">Specialized citrus fertilizers</button>
+    <button class="nav-link text-start" id="v-pills-CalciumMagnesium-tab" data-bs-toggle="pill" data-bs-target="#v-pills-CalciumMagnesium" type="button" role="tab" aria-controls="v-pills-settings" aria-selected="false">Calcium and Magnesium Sources</button>
+    <button class="nav-link text-start" id="v-pills-FoliarFertilizers-tab" data-bs-toggle="pill" data-bs-target="#v-pills-FoliarFertilizers" type="button" role="tab" aria-controls="v-pills-settings" aria-selected="false">Foliar Fertilizers</button>
+    <button class="nav-link text-start" id="v-pills-WellRotted-tab" data-bs-toggle="pill" data-bs-target="#v-pills-WellRotted" type="button" role="tab" aria-controls="v-pills-settings" aria-selected="false">Well-rotted Manure, Compost, or Organic Mulches</button>
+    <button class="nav-link text-start" id="v-pills-LimeDolomite-tab" data-bs-toggle="pill" data-bs-target="#v-pills-LimeDolomite" type="button" role="tab" aria-controls="v-pills-settings" aria-selected="false">Lime (calcium carbonate) or Dolomite</button>
+    <button class="nav-link text-start" id="v-pills-ChelatedMicronutrient-tab" data-bs-toggle="pill" data-bs-target="#v-pills-ChelatedMicronutrient" type="button" role="tab" aria-controls="v-pills-settings" aria-selected="false">Chelated Micronutrient Mixes</button>
+    <button class="nav-link text-start" id="v-pills-TripleSuperPhosphate-tab" data-bs-toggle="pill" data-bs-target="#v-pills-TripleSuperPhosphate" type="button" role="tab" aria-controls="v-pills-settings" aria-selected="false">Triple Super Phosphate(0-46-0) </button>
+    <button class="nav-link text-start" id="v-pills-BoronFertilizers-tab" data-bs-toggle="pill" data-bs-target="#v-pills-BoronFertilizers" type="button" role="tab" aria-controls="v-pills-settings" aria-selected="false">Boron, Manganese, and Zinc Fertilizers</button>
+    <button class="nav-link text-start" id="v-pills-SOP-tab" data-bs-toggle="pill" data-bs-target="#v-pills-SOP" type="button" role="tab" aria-controls="v-pills-settings" aria-selected="false">Sulfate of Potash (SOP) (0-0-50)</button>
+    <button class="nav-link text-start" id="v-pills-ZincSulfate-tab" data-bs-toggle="pill" data-bs-target="#v-pills-ZincSulfate" type="button" role="tab" aria-controls="v-pills-settings" aria-selected="false">Zinc Sulfate</button>
+    <button class="nav-link text-start" id="v-pills-CalciumNitrate-tab" data-bs-toggle="pill" data-bs-target="#v-pills-CalciumNitrate" type="button" role="tab" aria-controls="v-pills-settings" aria-selected="false">Calcium Nitrate (15.5-0-0 + 19% Ca)</button>
+    <button class="nav-link text-start" id="v-pills-Gypsum-tab" data-bs-toggle="pill" data-bs-target="#v-pills-Gypsum" type="button" role="tab" aria-controls="v-pills-settings" aria-selected="false">Gypsum</button>
+    <button class="nav-link text-start" id="v-pills-CoffeeCompost-tab" data-bs-toggle="pill" data-bs-target="#v-pills-CoffeeCompost" type="button" role="tab" aria-controls="v-pills-settings" aria-selected="false">Coffee Pulp Compost</button>
+    <button class="nav-link text-start" id="v-pills-SeaweedExtract-tab" data-bs-toggle="pill" data-bs-target="#v-pills-SeaweedExtract" type="button" role="tab" aria-controls="v-pills-settings" aria-selected="false">Seaweed Extract</button>
+    <button class="nav-link text-start" id="v-pills-BoronFertilizer-tab" data-bs-toggle="pill" data-bs-target="#v-pills-BoronFertilizer" type="button" role="tab" aria-controls="v-pills-settings" aria-selected="false">Boron Fertilizer</button>
+
+  </div>
+
+  <div class="tab-content right-side" id="v-pills-tabContent">
+    <div class="tab-pane fade show active" id="v-pills-urea" role="tabpanel" aria-labelledby="v-pills-home-tab"> 
+      <p class="card-text">Urea is a nitrogen fertilizer and is often used for rice cultivation. It provides a quick release of nitrogen, promoting vegetative growth.
+      </p>
+    </div>
+
+    <div class="tab-pane fade" id="v-pills-DAP" role="tabpanel" aria-labelledby="v-pills-profile-tab">
+      <p class="card-text">
+        DAP is a source of phosphorus and nitrogen. Phosphorus is crucial for root development and early growth stages of rice.
+      </p>
+    </div>
+
+    <div class="tab-pane fade" id="v-pills-KCL" role="tabpanel" aria-labelledby="v-pills-messages-tab">
+
+          <p class="card-text">
+            Potassium is essential for overall plant health and plays a role in the development of rice grains. Potassium chloride is a common source of potassium
+          </p>
+
+    </div>
+
+
+    <div class="tab-pane fade" id="v-pills-AmmoniumSulfate" role="tabpanel" aria-labelledby="v-pills-settings-tab">
+
+          <p class="card-text">
+            Ammonium sulfate is a quick-release nitrogen fertilizer. It also provides sulfur, which is beneficial for rice growth.
+          </p>
+ 
+    </div>
+
+    <div class="tab-pane fade" id="v-pills-MuriatePotash" role="tabpanel" aria-labelledby="v-pills-settings-tab">
+
+          <p class="card-text">
+            Similar to potassium chloride, muriate of potash is a source of potassium. It is important for grain filling and overall plant health
+          </p>
+
+    </div>
+
+    <div class="tab-pane fade" id="v-pills-Micronutrient" role="tabpanel" aria-labelledby="v-pills-settings-tab">
+
+          <p class="card-text">
+            Depending on soil test results, micronutrient fertilizers containing elements like zinc, iron, manganese, and copper may be applied to address specific deficiencies
+          </p>
+
+    </div>
+
+    <div class="tab-pane fade" id="v-pills-MAP" role="tabpanel" aria-labelledby="v-pills-settings-tab">
+     
+          <p class="card-text">
+            MAP is another phosphorus fertilizer option that provides both phosphorus and nitrogen.
+          </p>
+  
+    </div>
+
+    <div class="tab-pane fade" id="v-pills-SulfurFertilizers" role="tabpanel" aria-labelledby="v-pills-settings-tab">
+      
+          <p class="card-text">
+            Sulfur is an essential nutrient for maize growth. Fertilizers containing sulfur, such as ammonium sulfate (21-0-0), can be used to supplement sulfur requirements.
+          </p>
+     
+    </div>
+
+    <div class="tab-pane fade" id="v-pills-CompleteFertilizers" role="tabpanel" aria-labelledby="v-pills-settings-tab">
+     
+          <p class="card-text">
+            These fertilizers provide a balanced mix of nitrogen (N), phosphorus (P), and potassium (K), supporting overall growth and development 
+          </p>
+    
+    </div>
+
+    <div class="tab-pane fade" id="v-pills-RockPhosphate" role="tabpanel" aria-labelledby="v-pills-settings-tab">
+    
+          <p class="card-text">
+            Rock phosphate is a slow-release source of phosphorus, supporting root development and flowering
+          </p>
+    
+    </div>
+
+    <div class="tab-pane fade" id="v-pills-MagnesiumSulfate" role="tabpanel" aria-labelledby="v-pills-settings-tab">
+     
+          <p class="card-text">
+            Magnesium is a vital nutrient for coconut trees. Epsom salt can be used as a source of magnesium and sulfur                
+          </p>
+     
+    </div>
+
+    <div class="tab-pane fade" id="v-pills-BalancedNPK" role="tabpanel" aria-labelledby="v-pills-settings-tab">
+      
+          <p class="card-text">
+            These fertilizers provide a mix of nitrogen (N), phosphorus (P), and potassium (K), supporting overall growth, flowering, and fruit development in orange trees
+          </p>
+      
+    </div>
+
+    <div class="tab-pane fade" id="v-pills-SingleSuper" role="tabpanel" aria-labelledby="v-pills-settings-tab">
+      
+          <p class="card-text">
+            Phosphorus is crucial for root development and flowering. Super phosphate fertilizers can provide a readily available source of phosphorus
+          </p>
+    
+    </div>
+
+    <div class="tab-pane fade" id="v-pills-SpecializedCitrus" role="tabpanel" aria-labelledby="v-pills-settings-tab">
+     
+          <p class="card-text">
+            These formulations are designed specifically for citrus trees, including oranges. They often contain additional micro-nutrients like iron, zinc, manganese, and copper, which are important for citrus health          
+          </p>
+    
+    </div>
+
+    <div class="tab-pane fade" id="v-pills-CalciumMagnesium" role="tabpanel" aria-labelledby="v-pills-settings-tab">
+      
+          <p class="card-text">
+            Lime (calcium carbonate) or dolomite can be added to address calcium and magnesium deficiencies if present in the soil         
+          </p>
+     
+    </div>
+
+    <div class="tab-pane fade" id="v-pills-FoliarFertilizers" role="tabpanel" aria-labelledby="v-pills-settings-tab">
+      
+          <p class="card-text">
+            In addition to soil application, foliar sprays containing essential micro-nutrients can be applied directly to the leaves for better nutrient absorption
+          </p>
+     
+    </div>
+
+    <div class="tab-pane fade" id="v-pills-WellRotted" role="tabpanel" aria-labelledby="v-pills-settings-tab">
+     
+          <p class="card-text">
+            These materials contribute to soil structure, improve moisture retention, and provide a slow release of nutrients. Organic amendments also support microbial activity in the soil
+          </p>
+      
+    </div>
+
+    <div class="tab-pane fade" id="v-pills-LimeDolomite" role="tabpanel" aria-labelledby="v-pills-settings-tab">
+      
+          <p class="card-text">
+            Address calcium and magnesium deficiencies in the soil
+          </p>
+      
+    </div>
+
+    <div class="tab-pane fade" id="v-pills-ChelatedMicronutrient" role="tabpanel" aria-labelledby="v-pills-settings-tab">
+     
+          <p class="card-text">
+            Contains essential micro-nutrients (boron, manganese, zinc, copper) vital for various physiological processes in mango trees
+          </p>
+      
+    </div>
+
+    <div class="tab-pane fade" id="v-pills-TripleSuperPhosphate" role="tabpanel" aria-labelledby="v-pills-settings-tab">
+     
+          <p class="card-text">
+            Provides a high concentration of phosphorus for root development and flowering
+          </p>
+ 
+    </div>
+
+    <div class="tab-pane fade" id="v-pills-BoronFertilizers" role="tabpanel" aria-labelledby="v-pills-settings-tab">
+      
+          <p class="card-text">
+            Micronutrient fertilizers containing boron, manganese, and zinc, as needed based on soil test results
+          </p>
+     
+    </div>
+
+    <div class="tab-pane fade" id="v-pills-SOP" role="tabpanel" aria-labelledby="v-pills-settings-tab">
+      
+          <p class="card-text">
+            Provides potassium for plant development and stress resistance
+          </p>
+    
+    </div>
+
+    <div class="tab-pane fade" id="v-pills-ZincSulfate" role="tabpanel" aria-labelledby="v-pills-settings-tab">
+      
+          <p class="card-text">
+            Micronutrient fertilizer containing zinc, important for various physiological processes
+          </p>
+     
+    </div>
+
+    <div class="tab-pane fade" id="v-pills-CalciumNitrate" role="tabpanel" aria-labelledby="v-pills-settings-tab">
+      
+          <p class="card-text">
+            Provides nitrogen and calcium. Calcium is essential for strong cell walls and overall plant structure
+          </p>
+     
+    </div>
+
+    <div class="tab-pane fade" id="v-pills-Gypsum" role="tabpanel" aria-labelledby="v-pills-settings-tab">
+      
+          <p class="card-text">
+            Adds calcium to the soil, helps improve soil structure, and mitigates aluminum toxicity
+          </p>
+      
+    </div>
+
+    <div class="tab-pane fade" id="v-pills-CoffeeCompost" role="tabpanel" aria-labelledby="v-pills-settings-tab">
+     
+          <p class="card-text">                
+            Organic compost made from coffee pulp, improves soil fertility, and provides slow-release nutrients
+          </p>
+      
+    </div>
+
+    <div class="tab-pane fade" id="v-pills-SeaweedExtract" role="tabpanel" aria-labelledby="v-pills-settings-tab">
+      
+          <p class="card-text">        
+            Contains micro-nutrients, growth-promoting hormones, and enhances plant resilience
+          </p>
+      
+    </div>
+
+    <div class="tab-pane fade" id="v-pills-BoronFertilizer" role="tabpanel" aria-labelledby="v-pills-settings-tab">
+      
+          <p class="card-text">
+          Provides boron, a micronutrient essential for various physiological processes in coffee plants
+          </p>
+     
+    </div>
+
+  </div>
+
+  </div>
+
+</div> 
+{% endblock %}
