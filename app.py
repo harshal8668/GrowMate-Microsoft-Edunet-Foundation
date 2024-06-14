@@ -16,7 +16,7 @@ model = pickle.load(open('model.pkl','rb'))
 sc = pickle.load(open("standscaler.pkl",'rb'))
 ms = pickle.load(open("minmaxscaler.pkl",'rb'))
 
-openai.api_key = "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"
+openai.api_key = "YOUR API KEY"
 
 # Define the name of the bot
 name = 'GrowMate Partner'
